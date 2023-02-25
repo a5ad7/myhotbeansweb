@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #258090;
+}
+
+span {
+    color: #258090;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.background {
+    background-color: white;
+}
+
+.navigation {
+    background-color: #258090;
+    color: white;
+
+    padding: 1rem;
+}
+
+.content {
+    margin-top: 3rem;
+}
+
+.logo {
+    width: 48px;
+    margin: 0.1rem;
+}
+
+.title {
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+}
+
+.heading {
+    padding-bottom: 1rem;
+}
+
+.link {
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+}
+
+.link:hover {
+    color: #8bcad5e2;
+}
+
+.active {
+    color: #8bcad5e2;
+}
+
+button {
+    background-color: #258090;
+    padding: 0.75rem 1rem;
+
+    border-radius: 0.5rem;
+    border: none;
+
+    transition: all 0.1s ease-in-out;
+}
+
+.trainee {
+    width: 90%;
+    margin: auto;
+}
+
+button:hover {
+    padding: 1rem 1.25rem;
+}
+
+.trainees {
+    display: flex;
+}
+
+.profile {
+    text-align: center;
+    width: 150px;
+}
+
+@media (min-width: 720px) {
+    .container {
+        width: 700px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .links {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 960px) {
+    .container {
+        width: 900px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .links {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .links {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 90%;
+        margin: auto;
+        padding: 1rem 0;
+    }
+
+    .title {
+        display: none
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .trainees {
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+
+    .profile {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    
+}
+
+.content {
+    margin-bottom: 3rem;
+}
+
+form {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #d8d8d8 ;
+    padding: 1rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 0;
+    border-bottom: 3px solid #cecece;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus {
+    border-bottom: 3px solid #000;
+}
+
+input[type="submit"] {
+    background-color: #258090;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    width: 100%;
+    border: none;
+}
+
+textarea {
+    width: 100%;
+}
+
+i {
+    font-size: 24px;
+    margin: 0 1rem;
+}
+
+.footer {
+    background-color: #258090;
+    color: white;
+
+    text-align: center;
+
+    padding: 1rem;
+}
+
+.footer-text {
+    margin-bottom: 0.5rem;
+}
+
+#error {
+    color: red;
+}
